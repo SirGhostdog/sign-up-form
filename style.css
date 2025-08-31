@@ -6,23 +6,46 @@ body{
     display: flex;
 }
 
+a{
+    color: black;
+    font-weight: 600;
+}
+
 #container{
     display: flex;
 }
 
 #picture{
-    
+    display: flex;
+    flex-direction: column;
     flex: 2;
-    padding: 8px;
+    /* padding: 8px; */
     background-size: cover;
     background-position: center;
     background-image: url(annie-spratt-v0h1p3Tkid8-unsplash.jpg);
 }
 
 #banner{
+    margin-top: 50%;
+    display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgba(0,0,0,.15);
 }
+
+#bannertitle{
+    font-size: 56px;
+    font-family: "Nova Cut", system-ui;
+}
+
+#credit{
+    color: rgb(0, 0, 0);
+    display: flex;
+    margin-top: auto;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
 
 #form{
     padding: 8px;
