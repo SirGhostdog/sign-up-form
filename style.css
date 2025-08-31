@@ -1,0 +1,30 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+body{
+    display: flex;
+}
+
+#container{
+    display: flex;
+}
+
+#picture{
+    
+    flex: 2;
+    padding: 8px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(annie-spratt-v0h1p3Tkid8-unsplash.jpg);
+}
+
+#banner{
+    justify-content: center;
+    align-items: center;
+}
+
+#form{
+    padding: 8px;
+    flex: 3;
+}
