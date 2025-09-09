@@ -19,7 +19,6 @@ a{
     display: flex;
     flex-direction: column;
     flex: 2;
-    /* padding: 8px; */
     background-size: cover;
     background-position: center;
     background-image: url(annie-spratt-v0h1p3Tkid8-unsplash.jpg);
@@ -31,9 +30,11 @@ a{
     justify-content: center;
     align-items: center;
     background-color: rgba(0,0,0,.15);
+    padding: 12px;
 }
 
 #bannertitle{
+    display: inline-block;
     font-size: 56px;
     font-family: "Nova Cut", system-ui;
 }
@@ -49,6 +50,57 @@ a{
 
 
 #form{
-    padding: 8px;
+    display: flex;
+    flex-direction: column;
     flex: 3;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
+
+#toptextbg,
+#bottomtextbg{
+    flex: 1;
+    background-color: rgb(247, 247, 247);
+}
+
+#toptextbg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#toptext{
+    font-weight: 550;
+    padding-left: 36px;
+    font-size: 24px;
+}
+
+#signup{
+    flex:1;
+    max-height: 350px;
+}
+
+#createbutton,
+#login{
+    padding: 24px 36px;
+
+}
+
+button{
+    color: white;
+    background-color:rgb(76, 181, 223);
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 16px 52px;
+    cursor: pointer;
+}
+
+#login{
+    font-size: 18px;
+}
+
+#logbut{
+    color: rgb(76, 181, 223);
+}
+
