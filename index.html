@@ -26,12 +26,38 @@
             </div>
             <div id="signup">
                 Let's do this!
-                <div class='boxes' id="firstname">FIRST NAME </div>
-                <div class='boxes' id="lastname">LAST NAME</div>
-                <div class='boxes' id="email">EMAIL</div>
-                <div class='boxes' id="phone">PHONE NUMBER</div>
-                <div class='boxes' id="password">PASSWORD</div>
-                <div class='boxes' id="confirm">CONFIRM PASSWORD</div>
+                <form action="#" method="get">
+                    <div class='boxes' id="firstname">
+                        <label for="first_name">FIRST NAME</label>
+                    </div>
+                    <input type="text" name="firstname" placeholder="John">
+                    
+                    <div class='boxes' id="lastname">
+                        <label for="last_name">LAST NAME</label>
+                    </div>
+                    <input type="text" name="lastname" placeholder="Doe">
+                    
+                    <div class='boxes' id="email">
+                        <label for="user_email">EMAIL</label>
+                    </div>
+                    <input type="email" name="email" placeholder="example@email.com">
+                    
+                    <div class='boxes' id="phone">
+                        <label for="phone_number">PHONE NUMBER</label>
+                    </div>
+                    <input type="number" name="phonenumber" placeholder="(555) 555-1234">
+                    
+                    <div class='boxes' id="password">
+                        <label for="user_password">PASSWORD</label>
+                    </div>
+                    <input type="password" name="password" id="passwordbox">
+                    
+                    <div class='boxes' id="confirm">
+                        <label for="confirm_password">CONFIRM PASSWORD</label>
+                    </div>
+                    <input type="password" name="confirmpassword" id="passwordbox">
+                    
+                </form>
             </div>
             <div id="bottomtextbg">
                 <div id="createbutton"><button>Create Account</button></div>
