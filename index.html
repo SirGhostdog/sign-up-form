@@ -21,44 +21,59 @@
         </div>
         <div id="form">
             <div id="toptextbg">
-                <p id="toptext">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sing up <em>now</em> to get started.</p>  
+                <p id="toptext">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>  
                 <p id="toptext">You <em>know</em> you want to.</p>
             </div>
-            <div id="signup">
-                Let's do this!
+            
+            <div id="signup"> 
+                <p id="ldt">Let's do this!</p>
                 <form action="#" method="get">
-                    <div class='boxes' id="firstname">
-                        <label for="first_name">FIRST NAME</label>
-                    </div>
-                    <input type="text" name="firstname" placeholder="John">
                     
-                    <div class='boxes' id="lastname">
-                        <label for="last_name">LAST NAME</label>
+                    <div class='boxes'>
+                        <div  id="firstname">
+                            <label for="first_name">FIRST NAME</label>
+                        </div>
+                        <input type="text" name="firstname" placeholder="John">
                     </div>
-                    <input type="text" name="lastname" placeholder="Doe">
                     
-                    <div class='boxes' id="email">
-                        <label for="user_email">EMAIL</label>
+                    <div class="boxes">
+                        <div id="lastname">
+                            <label for="last_name">LAST NAME</label>
+                        </div>
+                        <input type="text" name="lastname" placeholder="Doe">
+                    </div>    
+                   
+                    <div class="boxes">
+                        <div id="email">
+                            <label for="user_email">EMAIL</label>
+                        </div>
+                        <input type="email" name="email" placeholder="example@email.com">
+                    </div>    
+                    
+                    <div class="boxes">
+                        <div id="phone">
+                            <label for="phone_number">PHONE NUMBER</label>
+                        </div>
+                        <input type="number" name="phonenumber" placeholder="(555) 555-1234">
+                    </div>    
+                    
+                    <div class="boxes">
+                        <div id="password">
+                             <label for="user_password">PASSWORD</label>
+                         </div>
+                         <input type="password" name="password" id="passwordbox">
+                    </div>    
+                    
+                    <div class="boxes">
+                        <div id="confirm">
+                            <label for="confirm_password">CONFIRM PASSWORD</label>
+                        </div>
+                        <input type="password" name="confirmpassword" id="passwordbox">
                     </div>
-                    <input type="email" name="email" placeholder="example@email.com">
-                    
-                    <div class='boxes' id="phone">
-                        <label for="phone_number">PHONE NUMBER</label>
-                    </div>
-                    <input type="number" name="phonenumber" placeholder="(555) 555-1234">
-                    
-                    <div class='boxes' id="password">
-                        <label for="user_password">PASSWORD</label>
-                    </div>
-                    <input type="password" name="password" id="passwordbox">
-                    
-                    <div class='boxes' id="confirm">
-                        <label for="confirm_password">CONFIRM PASSWORD</label>
-                    </div>
-                    <input type="password" name="confirmpassword" id="passwordbox">
-                    
+
                 </form>
             </div>
+
             <div id="bottomtextbg">
                 <div id="createbutton"><button>Create Account</button></div>
                 <div id="login">Already have an account? <a id="logbut">Log in</a></div>
